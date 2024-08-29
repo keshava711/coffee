@@ -1,0 +1,65 @@
+header{
+    font-family: chiller;
+    font-size: larger;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(249, 172, 71);
+    color:rgb(31, 18, 1);
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+body{
+    background-image: url(https://i.ytimg.com/vi/DyJTVkRP1vY/maxresdefault.jpg);
+}
+.coffee1{
+    display: inline-block;
+    margin-left: 110px;
+    border: 2px solid black ;
+    box-shadow: 4px 4px 5px rgb(224, 168, 94) ;
+    }
+.img1{
+    display: inline-block;
+background-color: burlywood;
+width: 350px;
+height:300px
+}
+.pic1{
+    display: inline-block;
+    width: 300px;
+    height: 160px;
+    padding: 20px 30px 10px 20px;
+
+}
+h4{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(249, 144, 6);
+    width: 100%;
+    height:40px;
+    padding-top: 15px;
+}
+.coffee1:hover{
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 4);
+}
+.img1:hover{
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 4);
+}
+.img1:hover img{
+    filter: grayscale(0);
+}
+.img1.reflection{
+    transition: all .1s ease;
+    opacity:0;
+    mix-blend-mode: soft-light;
+}
+.img1 img{
+    filter: grayscale(.65);
+    transition: all.3s ease;
+}
+
