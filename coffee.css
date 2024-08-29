@@ -44,22 +44,5 @@ footer{
 }
 .coffee1:hover{
     transform: scale(1);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 4);
+    box-shadow: 2px 3px 5px yellow;
 }
-.img1:hover{
-    transform: scale(1);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 4);
-}
-.img1:hover img{
-    filter: grayscale(0);
-}
-.img1.reflection{
-    transition: all .1s ease;
-    opacity:0;
-    mix-blend-mode: soft-light;
-}
-.img1 img{
-    filter: grayscale(.65);
-    transition: all.3s ease;
-}
-
